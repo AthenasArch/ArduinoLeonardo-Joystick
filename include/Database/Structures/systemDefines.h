@@ -1,0 +1,4 @@
+#ifndef SYSTEM_DEFINES_H_
+#define SYSTEM_DEFINES_H_
+
+#endif /* SYSTEM_DEFINES_H_ */
