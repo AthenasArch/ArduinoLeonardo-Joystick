@@ -20,7 +20,11 @@ Joystick_ Joystick(JOYSTICK_DEFAULT_REPORT_ID, JOYSTICK_TYPE_JOYSTICK, 16, 0, tr
 #endif
 
 /**
+ * @brief Inicializa todo o sistema de controle do Joystick
  * 
+ * @param systemStatus sistema de status geral
+ * 
+ * @return void
 */
 void psxManager_ini(SystemStatus *systemStatus){
     // pega erro de inicializacao se houver.
@@ -41,7 +45,12 @@ void psxManager_ini(SystemStatus *systemStatus){
 }
 
 /**
+ * @brief - Realiza a verificacao do funcionamento do controle.
+ *        - 
  * 
+ * @param systemStatus sistema de status geral
+ * 
+ * @return void
 */
 void psxManager_run(SystemStatus *systemStatus){
     static unsigned long timerControlPs2 = 0;
