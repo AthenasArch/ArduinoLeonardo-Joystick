@@ -40,3 +40,20 @@ Projeto com Arduino Leonardo como driver HID para controlar joysticks de PS2
   <a href="https://youtube.com/shorts/N5RL5DKm5p0?feature=share" target="_blank"><img width="60%" src="https://github.com/AthenasArch/ArduinoLeonardo-Joystick/blob/d26b65ddf5c984d6bf9a3b7a06d35c673a465b63/doc/pinout_joystick.png" target="_blank"></a> 
 </div>  
 <!-- END  -->
+
+---
+# PROJETO OK
+<div align="center">
+  <table style="margin-left: auto; margin-right: auto;">
+    <tr>
+      <td align="center"><img src="https://github.com/AthenasArch/ArduinoLeonardo-Joystick/blob/ed66b19df0fbb343284c1568258d04fffa7c6bcc/doc/img/1-Volante-VGA.jpg" width="150"/><br><b>Placa inferior</b></td>
+      <td align="center"><img src="https://github.com/AthenasArch/ArduinoLeonardo-Joystick/blob/ed66b19df0fbb343284c1568258d04fffa7c6bcc/doc/img/2-ConectorPSX-Placa.jpg" width="150"/><br><b>placa superior</b></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://github.com/AthenasArch/ArduinoLeonardo-Joystick/blob/ed66b19df0fbb343284c1568258d04fffa7c6bcc/doc/img/3-ConectorPSX-Placa.jpg" width="150"/><br><b>Volante funcionando</b></td>
+      <td align="center"><img src="https://github.com/AthenasArch/ArduinoLeonardo-Joystick/blob/ed66b19df0fbb343284c1568258d04fffa7c6bcc/doc/img/4-Comm-OK.jpg" width="150"/><br><b>Conector 15 vias</b></td>
+    </tr>
+  </table>
+</div>
+
+
