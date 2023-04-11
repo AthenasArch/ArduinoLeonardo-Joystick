@@ -99,10 +99,11 @@ void psxManager_run(SystemStatus *systemStatus){
         PSX_DEBUG_PRINT(" Right Stick Y: "); PSX_DEBUG_PRINTLN(ps2x.Analog(PSS_RY));
 
         // Map the PS2 controller analog sticks to the emulated joystick axes and scale the values to 16-bit range
-        Joystick.setXAxis(map(ps2x.Analog(PSS_LX), 0, 255, 0, 1000));
-        Joystick.setYAxis(map(128, 0, 255, 0, 1000));
-        Joystick.setRxAxis(map(128, 0, 255, 0, 1000));
-        Joystick.setRyAxis(map(128, 0, 255, 0, 1000));
+        // mapeamento funcionando OK.
+        // Joystick.setXAxis(map(ps2x.Analog(PSS_LX), 0, 255, 0, 1000));
+        // Joystick.setYAxis(map(128, 0, 255, 0, 1000));
+        // Joystick.setRxAxis(map(128, 0, 255, 0, 1000));
+        // Joystick.setRyAxis(map(128, 0, 255, 0, 1000));
 
 
         // Imprime os estados dos botões D-pad no Monitor Serial
@@ -111,6 +112,7 @@ void psxManager_run(SystemStatus *systemStatus){
         PSX_DEBUG_PRINT("D-pad Left: ");   PSX_DEBUG_PRINT(ps2x.Button(PSB_PAD_LEFT));
         PSX_DEBUG_PRINT("D-pad Right: ");  PSX_DEBUG_PRINTLN(ps2x.Button(PSB_PAD_RIGHT));
 
+        // mapeamento funcionando OK.
         Joystick.setXAxis(map(ps2x.Analog(PSS_LX), 0, 255, 0, 1000));
         Joystick.setYAxis(500);
         Joystick.setRxAxis(500);
